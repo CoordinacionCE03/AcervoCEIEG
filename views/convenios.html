@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-convenios.css">
+    <link rel="stylesheet" type="text/css" href="../styleicon-pag.css">
+    <!--Icono Principal-->
+    <link rel="icon" type="text/css" href="../img/Imagen-icono_programa.ico">
+    <title>CEIEG del Estado de México-Convenios</title>
+</head>
+<body>
+    <header>
+        
+        <div class="navbar">
+            <img src="../img/Encabezado.png" alt="Encabezado" class="img-encabezado">
+            <hr class=linea__navbar-gris>
+            <hr class=linea__navbar-verde>
+            <hr class=linea__navbar-azul>
+            <hr class=linea__navbar-amarrillo>
+            <img src="../img/LOGO-SNIEG-ENCABEZADO.png" alt="Logo SNIEG" class="logo__navbar--SNIEG">
+            <img src="../img/logo-EDOMEX.png" alt="Logo EDOMEX" class="logo__navbar--EDOMEX">
+            <img src="../img/logo-inegi.png" alt="Logo INEGI" class="logo__navbar--INEGI">
+        </div>
+        
+    </header>
+    <a class="boton cinco" href="../index.html">
+        <div class="icono">
+            <span class="icon-undo2 svg"></span>
+        </div>
+        <span class="texto">Regresar</span>
+    </a>
+    <div class="titulo">
+        Convenios
+    </div>
+
+    <a href="#" class="tooltips">
+        <span class="icon-info icon-info-respo">
+            <span class="caja__info"><b>Convenios y Acta de Conformidad del CEIEG:</b><br><br> Documentos jurídicos que dan formalidad a los trabajos, actividades y acciones que se gestionan, integran y desarrollan entre las Unidades del Estado de la entidad y el INEGI, en el marco del CEIEG del Estado de México.</span>
+        </span>
+    </a> 
+
+    <div class="menu__archivos">
+        <h2 class="menu__archivos--titulo">CEIEG<span class="icon-file-pdf icon__pdf"></span></h2>
+        <ul class="dropdown" id="menu" style="padding: 30px 0px 0px 0px;">
+            
+
+            <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                    <a href="##" class="amarillo" id="selected7" onclick="mostrar1();"><span class="icon-file-text icon__file"></span><div class="texto__titulo--text">Acta de Conformidad del CEIEG 2019</div></a>
+                </li>
+
+                <li class="dropdown__li">
+                    <a href="##" class="dropdown__anchor" id="selected8" onclick="mostrar2();"><span class="icon-file-text icon__file"></span><div class="texto__titulo--text">Convenio para la Constitución y Operación del CEIEG 2012</div></a>
+                </li>
+
+            </ul>
+
+        </ul>
+    </div>
+<!-- DOCUMENTOS -->
+    <div class="previsual">
+        <div class="previsual__imagen" id="previsual__imagen" style="display: block;">
+            <img src="../img/doc/imagen_selecciona.svg" alt="Imagen de bienvenida" class="previsual__imagen--edit">
+        </div>
+        <!-- Archivo 2019 -->
+        <div class="previsual__archivo" id="2019" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Convenios/CONVENIOS/Acta de Conformidad CEIEG 2019.pdf"></object>
+        </div>
+        <!-- Archivo 2012 -->
+        <div class="previsual__archivo" id="2012" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Convenios/CONVENIOS/Convenio CEIEG 2012.PDF"></object>
+        </div>
+
+
+
+    </div>
+<!--FIN DOCUMENTOS -->
+
+
+
+<footer>
+    <div class="waves">
+        <div class="waves" id="wave1"></div>
+        <div class="waves" id="wave2"></div>
+        <div class="waves" id="wave3"></div>
+        <div class="waves" id="wave4"></div>
+    </div>
+    
+    <div class="footer_menu--redes">
+        <h2>Redes Sociales</h2>
+        <ul class="social__icon">
+            <li><a href="" class="footer_a"><span class="icon-facebook"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-twitter"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-youtube"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-instagram"></span></a></li>
+        </ul>
+        <img src="../img/logoinegibco.png" alt="Logo Inegi" class="logo_inegi">
+            <a href="http://www.facebook.com/pages/inegi-informa/180299958681029">Facebook</a>
+            <a href="http://twitter.com/inegi_informa">Twitter</a>
+            <a href="https://www.youtube.com/user/INEGIInforma">Youtube</a>
+            <a href="https://www.instagram.com/inegi_informa/">Instagram</a>
+    
+    </div>
+    <!-- <div class="footer_menu--enlace">
+        <h2>Enlaces</h2>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://www.gob.mx/inmujeres/acciones-y-programas/norma-mexicana-nmx-r-025-scfi-2015-en-igualdad-laboral-y-no-discriminacion">Norma Mexicana <br> NMX R 025 SCFI 2015 en <br> Igualdad Laboral y No Discriminación</a>
+        <a href="https://atlasdegenero-semujeres.edomex.gob.mx/">Atlas de Género del Estado de México</a>
+        <a href="/inegi/enlaces.html">Enlaces de interés</a>
+        <a href="http://cuentame.inegi.org.mx/">Cuéntame de México</a>
+    
+    </div> -->
+    <div class="footer_menu--interes">
+        <h2>Sitios de interés</h2>
+        <!-- <ul class="social__icon__interes">
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+        </ul> -->
+        <a href="https://www.snieg.mx/">SNIEG</a>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://edomex.gob.mx/">EDOMEX</a>
+        <a href="https://www.snieg.mx/RNIEG/">RNIEG</a>
+
+    
+    </div>
+    
+    <label class="depa">Coordinación Estatal México Poniente </label>
+    <p class="copy">Derechos reservados © Departamento de Comité Estatal</p>
+</footer>
+
+        <script src="../js/menu-convenios.js"></script>
+       <!-- Libreria para las alertas -->
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <!-- carpeta js para alertas -->
+       <script src="../controllers/swalertas-convenios.js"></script>
+</body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-actas.css">
+    <link rel="stylesheet" type="text/css" href="../styleicon-pag.css">
+    <!--Icono Principal-->
+    <link rel="icon" type="text/css" href="../img/Imagen-icono_programa.ico">
+    <title>CEIEG del Estado de México-Actas y Minutas</title>
+</head>
+<body>
+    <header>
+        
+        <div class="navbar">
+            <img src="../img/Encabezado.png" alt="Encabezado" class="img-encabezado">
+            <hr class=linea__navbar-gris>
+            <hr class=linea__navbar-verde>
+            <hr class=linea__navbar-azul>
+            <hr class=linea__navbar-amarrillo>
+            <img src="../img/LOGO-SNIEG-ENCABEZADO.png" alt="Logo SNIEG" class="logo__navbar--SNIEG">
+            <img src="../img/logo-EDOMEX.png" alt="Logo EDOMEX" class="logo__navbar--EDOMEX">
+            <img src="../img/logo-inegi.png" alt="Logo INEGI" class="logo__navbar--INEGI">
+        </div>
+        
+    </header>
+    <a class="boton cinco" href="../index.html">
+        <div class="icono">
+            <span class="icon-undo2 svg"></span>
+        </div>
+        <span class="texto">Regresar</span>
+    </a>
+    <div class="titulo">
+        Actas y<br> Minutas
+    </div>
+
+    
+    <a href="#" class="tooltips">
+        <span class="icon-info icon-info-respo">
+            <span class="caja__info"><b>Actas y Minutas de las Sesiones del CEIEG:</b><br><br> Documentos en los que se establece los principales temas y asuntos expuestos durante las sesiones del CEIEG. De acuerdo con las Reglas para la integración y operación de los Comités Técnicos Especializados (RIOCTE) se deberá sesionar por lo menos dos veces al año. </span>
+        </span>
+    </a> 
+    <div class="menu__archivos">
+        <h2 class="menu__archivos--titulo">Sesiones del CEIEG<span class="icon-file-pdf icon__pdf"></span></h2>
+        <ul class="dropdown" id="menu" style="padding: 16px;">
+            <div class="poblacion__opciones" id="alloption">
+                <div class="poblacion__opciones--1">
+                    <input type="checkbox" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                    <label for="btn-acordeon1" class="header--opciones"><span class="icon-books dropdown__icon"></span>Periodo 2018-2023<span class="icon-circle-down dropdown__arrow"></span></label>
+                        <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                    <div class="contenido__opciones">
+                        
+                        <!-- <div class="contenido__cuadro1">Cuadro 1</div> -->
+                        <ul class="dropdown__sub">
+
+                            <!-- SUBMENU -->
+                            <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                               <label for="btn-acordeon2" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span> Año 2023<span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones">
+                                   <ul class="dropdown__sub">
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="amarillo" id="selected" onclick="mostrar1();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2023</a>
+                                       </li>
+                                   </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+
+                            <!-- SUBMENU -->
+                            <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                               <label for="btn-acordeon3" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2022 <span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones">
+                                   <ul class="dropdown__sub">
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="dropdown__anchor" id="selected2" onclick="mostrar2();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2022</a>
+                                       </li>
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="verde" id="selected3" onclick="mostrar3();"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2022</a>
+                                       </li>
+                                   </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+
+                             <!-- SUBMENU -->
+                            <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                               <label for="btn-acordeon4" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2021<span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones">
+                                   <ul class="dropdown__sub">
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="amarillo" id="selected4" onclick="mostrar4();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2021</a>
+                                       </li>
+                                   </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+
+                            <!-- SUBMENU -->
+                            <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+                               <label for="btn-acordeon5" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2020<span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones">
+                                   <ul class="dropdown__sub">
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="dropdown__anchor" id="selected5" onclick="mostrar5();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2020</a>
+                                       </li>
+                                   </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+
+                            <!-- SUBMENU -->
+                            <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+                               <label for="btn-acordeon6" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2019<span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones" style="width: 90%;">
+                                   <ul class="dropdown__sub">
+                                       
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="verde" id="selected6" onclick="mostrar7();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2019</a>
+                                       </li>
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="amarillo" id="selected7" onclick="mostrar8();"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2019</a>
+                                       </li>
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="dropdown__anchor" id="selected8" onclick="mostrar6();"><span class="icon-file-text" style="margin: 5px; width: 91%;"></span><div class="texto__titulo--text">Primera Sesión Extraordinaria 2019</div></a>
+                                       </li>
+
+                                    </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+
+                             <!-- SUBMENU -->
+                             <div class="poblacion__opciones--submenu">
+                                <input type="radio" name="acordeon" id="btn-acordeon14" class="btn-acordeon">
+                               <label for="btn-acordeon14" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2018<span class="icon-circle-down dropdown__arrow"></span></label>
+                               <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                               <div class="contenido__opciones">
+                                   <ul class="dropdown__sub">
+                                       <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                           <a href="##" class="verde" id="selected9" onclick="mostrar9();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2018</a>
+                                       </li>
+                                    </ul>
+                               </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                           </div>
+                            <!-- FIN SUBMENU -->
+                        </ul>
+                    
+                    </div><!-- FIN DEL CONTENIDO DE LA PRIMERA OPCION DE POBLACION -->
+                </div>
+
+                            <!-- OPCIONES DEL 2012-2017 -->
+
+                <div class="poblacion__opciones--2">
+                     <input type="checkbox" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
+                    <label for="btn-acordeon7" class="header--opciones"><span class="icon-books dropdown__icon"></span>Periodo 2012-2017 <span class="icon-circle-down dropdown__arrow"></span></label>
+                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                    <div class="contenido__opciones">
+    
+    
+                        <ul class="dropdown__sub">
+
+                                        <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
+                                    <label for="btn-acordeon8" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2017<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                            
+                                            <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                <a href="##" class="amarillo" id="selected10" onclick="mostrar12();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2017</a>
+                                            </li>
+                                            <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                <a href="##" class="dropdown__anchor" id="selected11" onclick="mostrar13();"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2017</a>
+                                            </li>
+                                            <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                <a href="##" class="verde" id="selected12" onclick="mostrar10();" style="font-size: 15.5px;"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Extraordinaria 2017</a>
+                                            </li>
+                                            <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                <a href="##" class="amarillo" id="selected13" onclick="mostrar11();" style="width: 100%; font-size: 15.1px;"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Extraordinaria 2017</a>
+                                            </li>
+
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+
+                                            <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon9" class="btn-acordeon">
+                                    <label for="btn-acordeon9" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2016<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected14" onclick="mostrar14();" ><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2016</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="verde" id="selected15" onclick="mostrar15();"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2016</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected16" onclick="mostrar16();"><span class="icon-file-text" style="margin: 5px;"></span>Tercera Sesión Ordinaria 2016</a>
+                                                </li>
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+
+                                      <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon10" class="btn-acordeon">
+                                    <label for="btn-acordeon10" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2015<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                            <!-- Nuevos archivos -->
+                                            <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                <a href="##" class="dropdown__anchor" id="selected30" onclick="mostrar30();" ><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2015</a>
+                                            </li>
+                                            <!-- FIN Nuevos archivos -->
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected17" onclick="mostrar17();" ><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2015</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="verde" id="selected18" onclick="mostrar18();"><span class="icon-file-text" style="margin: 5px;"></span>Tercera Sesión Ordinaria 2015</a>
+                                                </li>
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+
+                                    <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon11" class="btn-acordeon">
+                                    <label for="btn-acordeon11" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2014<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                                
+                                                <!-- nuevo archivos -->
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected27" onclick="mostrar27();" ><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2014</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected28" onclick="mostrar28();" ><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2014</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected19" onclick="mostrar19();" ><span class="icon-file-text" style="margin: 5px;"></span>Tercera Sesión Ordinaria 2014</a>
+                                                </li>
+                                                <!--FIN nuevo archivos -->
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected29" onclick="mostrar29();" ><span class="icon-file-text" style="margin: 5px;"></span><div class="texto__titulo--text">Primera Sesión Extraordinaria 2014</div></a>
+                                                </li>
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+
+                                    <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon12" class="btn-acordeon">
+                                    <label for="btn-acordeon12" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2013<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected24" onclick="mostrar24();"><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2013</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected25" onclick="mostrar25();"><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2013</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected26" onclick="mostrar26();"><span class="icon-file-text" style="margin: 5px;"></span>Tercera Sesión Ordinaria 2013</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected20" onclick="mostrar20();"><span class="icon-file-text" style="margin: 5px;"></span><div class="texto__titulo--text">Primera Sesión Extraordinaria 2013</div></a>
+                                                </li>
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+
+                                    <!-- SUBMENU -->
+                                    <div class="poblacion__opciones--submenu">
+                                        <input type="radio" name="acordeon" id="btn-acordeon13" class="btn-acordeon">
+                                    <label for="btn-acordeon13" class="header--opciones--submenu"><span class="icon-folder dropdown__icon" style="margin-right: 5px;"></span>Año 2012<span class="icon-circle-down dropdown__arrow"></span></label>
+                                    <!-- CONTENDIO DE LA TERCERA OPCION DE POBLACION -->
+                                    <div class="contenido__opciones">
+                                        <ul class="dropdown__sub">
+                                                
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="verde" id="selected21" onclick="mostrar22();" ><span class="icon-file-text" style="margin: 5px;"></span>Primera Sesión Ordinaria 2012</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="amarillo" id="selected22" onclick="mostrar23();" ><span class="icon-file-text" style="margin: 5px;"></span>Segunda Sesión Ordinaria 2012</a>
+                                                </li>
+                                                <li class="dropdown__li mayor" style=" margin-left: 0;">
+                                                    <a href="##" class="dropdown__anchor" id="selected23" onclick="mostrar21();"><span class="icon-file-text" style="margin: 5px;"></span><div class="texto__titulo--text">Primera Sesión Extraordinaria 2012</div></a>
+                                                </li>
+                                                
+                                            </ul>
+                                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                                </div>
+                                    <!-- FIN SUBMENU -->
+    
+                        </ul>
+    
+    
+                    </div><!-- FIN DEL CONTENIDO DE LA SEGUNDA OPCION DE POBLACION -->
+                    
+                </div>
+            </div><!--FIN de las opciones -->
+
+        </ul>
+    </div>
+<!-- DOCUMENTOS -->
+    <div class="previsual">
+        <div class="previsual__imagen" id="previsual__imagen" style="display: block;">
+            <img src="../img/doc/imagen_selecciona.svg" alt="Imagen de bienvenida" class="previsual__imagen--edit">
+        </div>
+        <!-- Archivo por2018 -->
+        <div class="previsual__archivo" id="por2018" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2018.pdf"></object>
+        </div>
+        <!-- Archivo pex2019 -->
+        <div class="previsual__archivo" id="pex2019" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Extraordinaria 2019.pdf"></object>
+        </div>
+        <!-- Archivo por2019 -->
+        <div class="previsual__archivo" id="por2019" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2019.pdf"></object>
+        </div>
+        <!-- Archivo sor2019-->
+        <div class="previsual__archivo" id="sor2019" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Segunda Sesión Ordinaria 2019.pdf"></object>
+        </div>
+        <!-- Archivo por2020-->
+        <div class="previsual__archivo" id="por2020" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2020.pdf"></object>
+        </div>
+        <!-- Archivo por2021 -->
+        <div class="previsual__archivo" id="por2021" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2021.pdf"></object>
+        </div>
+        <!-- Archivo por2022 -->
+        <div class="previsual__archivo" id="por2022" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2022.pdf"></object>
+        </div>
+        <!-- Archivo sor2022 -->
+        <div class="previsual__archivo" id="sor2022" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Segunda Sesión Ordinaria 2022.pdf"></object>
+        </div>
+        <!-- Archivo por2023 -->
+        <div class="previsual__archivo" id="por2023" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS-MINUTAS 2018-2023/Primera Sesión Ordinaria 2023.pdf"></object>
+        </div>
+        <!-- Archivos 2012-2017 -->
+            <!-- Archivo pex2012 -->
+            <div class="previsual__archivo" id="pex2012" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2012/Primera Sesion Extraordinaria 2012.pdf"></object>
+            </div>
+            <!-- Archivo por2012 -->
+            <div class="previsual__archivo" id="por2012" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2012/Primera Sesión Ordinaria 2012.pdf"></object>
+            </div>
+            <!-- Archivo sor2012 -->
+            <div class="previsual__archivo" id="sor2012" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2012/Segunda Sesión Ordinaria 2012.pdf"></object>
+            </div>
+            <!-- Archivo por2013-->
+            <div class="previsual__archivo" id="por2013" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2013/Primera Sesión Ordinaria 2013.pdf"></object>
+            </div>
+            <!-- Archivo sor2013-->
+            <div class="previsual__archivo" id="sor2013" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2013/Segunda Sesión Ordinaria 2013.pdf"></object>
+            </div>
+            <!-- Archivo tor2013-->
+            <div class="previsual__archivo" id="tor2013" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2013/Tercera Sesion Ordinaria 2013.pdf"></object>
+            </div>
+            <!-- Archivo pex2013-->
+            <div class="previsual__archivo" id="pex2013" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2013/Primera Sesión Extraordinaria 2013.pdf"></object>
+            </div>
+            <!-- Archivo por2014-->
+            <div class="previsual__archivo" id="por2014" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2014/Primera Sesion Ordinaria 2014.pdf"></object>
+            </div>
+            <!-- Archivo sor2014-->
+            <div class="previsual__archivo" id="sor2014" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2014/Segunda Sesion Ordinaria 2014.pdf"></object>
+            </div>
+            <!-- Archivo tor2014-->
+            <div class="previsual__archivo" id="tor2014" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2014/Tercera Sesión Ordinaria 2014.pdf"></object>
+            </div>
+            <!-- Archivo pex2014-->
+            <div class="previsual__archivo" id="pex2014" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2014/Primera Sesión Extraordinaria 2014.pdf"></object>
+            </div>
+            <!-- Archivo por2015-->
+            <div class="previsual__archivo" id="por2015" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2015/Primera Sesión Ordinaria 2015.pdf"></object>
+            </div>
+            <!-- Archivo sor2015-->
+            <div class="previsual__archivo" id="sor2015" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2015/Segunda Sesión Ordinaria 2015.pdf"></object>
+            </div>
+            <!-- Archivo tor2015-->
+            <div class="previsual__archivo" id="tor2015" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2015/Tercera Sesión Ordinaria 2015.pdf"></object>
+            </div>
+            <!-- Archivo por2016-->
+            <div class="previsual__archivo" id="por2016" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2016/Primera Sesión Ordinaria 2016.pdf"></object>
+            </div>
+            <!-- Archivo sor2016-->
+            <div class="previsual__archivo" id="sor2016" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2016/Segunda Sesión Ordinaria 2016.pdf"></object>
+            </div>
+            <!-- Archivo tor2016-->
+            <div class="previsual__archivo" id="tor2016" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2016/Tercera Sesión Ordinaria 2016.pdf"></object>
+            </div>
+            <!-- Archivo pex2017-->
+            <div class="previsual__archivo" id="pex2017" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2017/Primera Sesión Extraordinaria 2017.pdf"></object>
+            </div>
+            <!-- Archivo sex2017-->
+            <div class="previsual__archivo" id="sex2017" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2017/Segunda Sesión Extraordinaria 2017.pdf"></object>
+            </div>
+            <!-- Archivo por2017-->
+            <div class="previsual__archivo" id="por2017" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2017/Primera Sesión Ordinaria 2017.pdf"></object>
+            </div>
+            <!-- Archivo sor2017-->
+            <div class="previsual__archivo" id="sor2017" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Actas_minutas/ACTAS-MINUTAS/ACTAS -MINUTAS 2012-2017/2017/Segunda Sesión Ordinaria 2017.pdf"></object>
+            </div>
+
+
+
+    </div>
+<!--FIN DOCUMENTOS -->
+
+
+
+<footer>
+    <div class="waves">
+        <div class="waves" id="wave1"></div>
+        <div class="waves" id="wave2"></div>
+        <div class="waves" id="wave3"></div>
+        <div class="waves" id="wave4"></div>
+    </div>
+    
+    <div class="footer_menu--redes">
+        <h2>Redes Sociales</h2>
+        <ul class="social__icon">
+            <li><a href="" class="footer_a"><span class="icon-facebook"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-twitter"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-youtube"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-instagram"></span></a></li>
+        </ul>
+        <img src="../img/logoinegibco.png" alt="Logo Inegi" class="logo_inegi">
+            <a href="http://www.facebook.com/pages/inegi-informa/180299958681029">Facebook</a>
+            <a href="http://twitter.com/inegi_informa">Twitter</a>
+            <a href="https://www.youtube.com/user/INEGIInforma">Youtube</a>
+            <a href="https://www.instagram.com/inegi_informa/">Instagram</a>
+    
+    </div>
+    <!-- <div class="footer_menu--enlace">
+        <h2>Enlaces</h2>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://www.gob.mx/inmujeres/acciones-y-programas/norma-mexicana-nmx-r-025-scfi-2015-en-igualdad-laboral-y-no-discriminacion">Norma Mexicana <br> NMX R 025 SCFI 2015 en <br> Igualdad Laboral y No Discriminación</a>
+        <a href="https://atlasdegenero-semujeres.edomex.gob.mx/">Atlas de Género del Estado de México</a>
+        <a href="/inegi/enlaces.html">Enlaces de interés</a>
+        <a href="http://cuentame.inegi.org.mx/">Cuéntame de México</a>
+    
+    </div> -->
+    <div class="footer_menu--interes">
+        <h2>Sitios de interés</h2>
+        <!-- <ul class="social__icon__interes">
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+        </ul> -->
+        <a href="https://www.snieg.mx/">SNIEG</a>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://edomex.gob.mx/">EDOMEX</a>
+        <a href="https://www.snieg.mx/RNIEG/">RNIEG</a>
+
+    
+    </div>
+    
+    <label class="depa">Coordinación Estatal México Poniente </label>
+    <p class="copy">Derechos reservados © Departamento de Comité Estatal</p>
+</footer>
+
+        <script src="../js/menu-actas.js"></script>
+       <!-- Libreria para las alertas -->
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <!-- carpeta js para alertas -->
+       <script src="../controllers/swalertas-actas.js"></script>
+</body>
+</html>
