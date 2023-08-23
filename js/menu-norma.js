@@ -4,6 +4,7 @@ function mostrar1() {
     document.getElementById('ley').style.display = 'none';
     document.getElementById('reglas').style.display = 'none';
     document.getElementById('cte').style.display = 'none';
+    document.getElementById('creacion').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
 }
 function mostrar2() {
@@ -11,6 +12,7 @@ function mostrar2() {
     document.getElementById('ley').style.display = 'block';
     document.getElementById('reglas').style.display = 'none';
     document.getElementById('cte').style.display = 'none';
+    document.getElementById('creacion').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
 }
 function mostrar3() {
@@ -18,6 +20,7 @@ function mostrar3() {
     document.getElementById('ley').style.display = 'none';
     document.getElementById('reglas').style.display = 'block';
     document.getElementById('cte').style.display = 'none';
+    document.getElementById('creacion').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
 }
 function mostrar4() {
@@ -25,6 +28,15 @@ function mostrar4() {
     document.getElementById('ley').style.display = 'none';
     document.getElementById('reglas').style.display = 'none';
     document.getElementById('cte').style.display = 'block';
+    document.getElementById('creacion').style.display = 'none';
+    document.getElementById('previsual__imagen').style.display = 'none';
+}
+function mostrar5() {
+    document.getElementById('codigo').style.display = 'none';
+    document.getElementById('ley').style.display = 'none';
+    document.getElementById('reglas').style.display = 'none';
+    document.getElementById('cte').style.display = 'none';
+    document.getElementById('creacion').style.display = 'block';
     document.getElementById('previsual__imagen').style.display = 'none';
 }
 //FINVisualizar y ocultar documentos de la otra opcion
