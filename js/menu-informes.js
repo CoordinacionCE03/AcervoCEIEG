@@ -7,6 +7,7 @@ function mostrar1() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -30,6 +31,7 @@ function mostrar2() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -53,6 +55,7 @@ function mostrar3() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -76,6 +79,7 @@ function mostrar4() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -99,6 +103,7 @@ function mostrar5() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'block';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -122,6 +127,7 @@ function mostrar6() {
     document.getElementById('p2021').style.display = 'block';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -147,6 +153,7 @@ function mostrar7() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'block';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -170,6 +177,7 @@ function mostrar8() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'block';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -193,6 +201,7 @@ function mostrar9() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -216,6 +225,7 @@ function mostrar10() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -239,6 +249,7 @@ function mostrar11() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -262,6 +273,7 @@ function mostrar12() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -285,6 +297,7 @@ function mostrar13() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -308,6 +321,7 @@ function mostrar14() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -331,6 +345,7 @@ function mostrar15() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -355,6 +370,7 @@ function mostrar16() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -379,6 +395,7 @@ function mostrar17() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -403,6 +420,7 @@ function mostrar18() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -427,6 +445,7 @@ function mostrar19() {
     document.getElementById('p2021').style.display = 'none';
     document.getElementById('s2021').style.display = 'none';
     document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'none';
     document.getElementById('s2022').style.display = 'none';
     document.getElementById('previsual__imagen').style.display = 'none';
     //Documentos de la otra opcion
@@ -443,6 +462,31 @@ function mostrar19() {
     document.getElementById('p2017').style.display = 'none';
 }
 
+//Nuevos archivos 2016 segundo informe
+function mostrar20() {
+    document.getElementById('p2019').style.display = 'none';
+    document.getElementById('s2019').style.display = 'none';
+    document.getElementById('p2020').style.display = 'none';
+    document.getElementById('s2020').style.display = 'none';
+    document.getElementById('p2021').style.display = 'none';
+    document.getElementById('s2021').style.display = 'none';
+    document.getElementById('p2022').style.display = 'none';
+    document.getElementById('p2023').style.display = 'block';
+    document.getElementById('s2022').style.display = 'none';
+    document.getElementById('previsual__imagen').style.display = 'none';
+    //Documentos de la otra opcion
+    document.getElementById('o2013').style.display = 'none';
+    document.getElementById('p2013').style.display = 'none';
+    document.getElementById('s2013').style.display = 'none';
+    document.getElementById('p2014').style.display = 'none';
+    document.getElementById('s2014').style.display = 'none';
+    document.getElementById('o2015').style.display = 'none';
+    document.getElementById('p2015').style.display = 'none';
+    document.getElementById('s2015').style.display = 'none';
+    document.getElementById('p2016').style.display = 'none';
+    document.getElementById('s2016').style.display = 'none';
+    document.getElementById('p2017').style.display = 'none';
+}
 //FINVisualizar y ocultar documentos de la otra opcion
 
 //FIN Visualizar y ocultar documentos
@@ -830,3 +874,4 @@ function cambio17(){
 
 
 //FIN Para ver que opcion esta seleccionada PRIMER AÑO
+
