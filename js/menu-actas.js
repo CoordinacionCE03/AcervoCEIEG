@@ -1,5 +1,6 @@
 function mostrar1() {
     document.getElementById('por2023').style.display = 'block';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -34,6 +35,7 @@ function mostrar1() {
 }
 function mostrar2() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'block';
     document.getElementById('por2021').style.display = 'none';
@@ -68,6 +70,7 @@ function mostrar2() {
 }
 function mostrar3() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'block';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -102,6 +105,7 @@ function mostrar3() {
 }
 function mostrar4() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'block';
@@ -136,6 +140,7 @@ function mostrar4() {
 }
 function mostrar5() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -170,6 +175,7 @@ function mostrar5() {
 }
 function mostrar6() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -204,6 +210,7 @@ function mostrar6() {
 }
 function mostrar7() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -238,6 +245,7 @@ function mostrar7() {
 }
 function mostrar8() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -272,6 +280,7 @@ function mostrar8() {
 }
 function mostrar9() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -306,6 +315,7 @@ function mostrar9() {
 }
 function mostrar10() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -340,6 +350,7 @@ function mostrar10() {
 }
 function mostrar11() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -374,6 +385,7 @@ function mostrar11() {
 }
 function mostrar12() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -408,6 +420,7 @@ function mostrar12() {
 }
 function mostrar13() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -442,6 +455,7 @@ function mostrar13() {
 }
 function mostrar14() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -476,6 +490,7 @@ function mostrar14() {
 }
 function mostrar15() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -510,6 +525,7 @@ function mostrar15() {
 }
 function mostrar16() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -544,6 +560,7 @@ function mostrar16() {
 }
 function mostrar17() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -579,6 +596,7 @@ function mostrar17() {
 }
 function mostrar18() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -614,6 +632,7 @@ function mostrar18() {
 }
 function mostrar19() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -649,6 +668,7 @@ function mostrar19() {
 }
 function mostrar20() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -684,6 +704,7 @@ function mostrar20() {
 }
 function mostrar21() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -718,6 +739,7 @@ function mostrar21() {
 }
 function mostrar22() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -752,6 +774,7 @@ function mostrar22() {
 }
 function mostrar23() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -787,6 +810,7 @@ function mostrar23() {
 //NUEVOS ARCHIVOS AÑADIDOS.
 function mostrar24() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -821,6 +845,7 @@ function mostrar24() {
 }
 function mostrar25() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -855,6 +880,7 @@ function mostrar25() {
 }
 function mostrar26() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -889,6 +915,7 @@ function mostrar26() {
 }
 function mostrar27() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -923,6 +950,7 @@ function mostrar27() {
 }
 function mostrar28() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -957,6 +985,7 @@ function mostrar28() {
 }
 function mostrar29() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -991,6 +1020,7 @@ function mostrar29() {
 }
 function mostrar30() {
     document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'none';
     document.getElementById('sor2022').style.display = 'none';
     document.getElementById('por2022').style.display = 'none';
     document.getElementById('por2021').style.display = 'none';
@@ -1023,7 +1053,41 @@ function mostrar30() {
     document.getElementById('por2012').style.display = 'none';
     document.getElementById('pex2012').style.display = 'none';
 }
-
+function mostrar31() {
+    document.getElementById('por2023').style.display = 'none';
+    document.getElementById('sor2023').style.display = 'block';
+    document.getElementById('sor2022').style.display = 'none';
+    document.getElementById('por2022').style.display = 'none';
+    document.getElementById('por2021').style.display = 'none';
+    document.getElementById('por2020').style.display = 'none';
+    document.getElementById('sor2019').style.display = 'none';
+    document.getElementById('por2019').style.display = 'none';
+    document.getElementById('pex2019').style.display = 'none';
+    //Documentos de la otra opcion
+    document.getElementById('por2018').style.display = 'none';
+    document.getElementById('previsual__imagen').style.display = 'none';
+    document.getElementById('sor2017').style.display = 'none';
+    document.getElementById('por2017').style.display = 'none';
+    document.getElementById('sex2017').style.display = 'none';
+    document.getElementById('pex2017').style.display = 'none';
+    document.getElementById('tor2016').style.display = 'none';
+    document.getElementById('sor2016').style.display = 'none';
+    document.getElementById('por2016').style.display = 'none';
+    document.getElementById('por2015').style.display = 'none';
+    document.getElementById('sor2015').style.display = 'none';
+    document.getElementById('tor2015').style.display = 'none';
+    document.getElementById('por2014').style.display = 'none';
+    document.getElementById('sor2014').style.display = 'none';
+    document.getElementById('tor2014').style.display = 'none';
+    document.getElementById('pex2014').style.display = 'none';
+    document.getElementById('por2013').style.display = 'none';
+    document.getElementById('sor2013').style.display = 'none';
+    document.getElementById('tor2013').style.display = 'none';
+    document.getElementById('pex2013').style.display = 'none';
+    document.getElementById('sor2012').style.display = 'none';
+    document.getElementById('por2012').style.display = 'none';
+    document.getElementById('pex2012').style.display = 'none';
+}
 
 //Para ver que opcion esta seleccionada PRIMER AÑO
 document.getElementById("selected").addEventListener("click", cambio);
@@ -2114,4 +2178,5 @@ function cambio30(){
 	selected29.classList.remove("selected");
 	selected30.classList.add("selected");
 }
+
 //FIN Para ver que opcion esta seleccionada PRIMER AÑO
